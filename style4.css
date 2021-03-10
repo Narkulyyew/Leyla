@@ -1,0 +1,127 @@
+.body1{
+	margin-top: 50px;
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.images{
+	width: 455px;
+	height: 455px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	border:1px solid grey;
+	border-radius: 20px;
+	background-color: rgb(230,230,230);
+	padding: 7px;
+	position: relative;
+
+	
+}
+
+.images div{
+	width: 150px;
+	height: 150px;
+}
+
+.tile{
+	background-image: url(post-image-4.jpg);
+	border-radius: 20px;
+	background-size: 470px 470px;
+}
+
+
+.tile:nth-child(1){background-position: left top;}
+.tile:nth-child(2){background-position: center top;}
+.tile:nth-child(3){background-position: right top;}
+.tile:nth-child(4){background-position: left center;}
+.tile:nth-child(5){background-position: center center;}
+.tile:nth-child(6){background-position: right center;}
+.tile:nth-child(7){background-position: left bottom;}
+.tile:nth-child(8){background-position: center bottom;}
+
+
+.btn{
+	margin-top: 20px;
+}
+button{
+	display: none;
+	font-size: 1.5rem; 
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: rgb(280,70,70);
+	color:white;
+	outline: none;
+	transition: 0.3s;
+	border:red;
+}
+
+button:hover{
+	font-size: 1.5rem;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: white;
+	color:rgb(280,70,70);
+	outline: none;
+	border:1px solid red;
+}
+
+button:active{
+	font-size: 1.6rem;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: white;
+	color:rgb(280,70,70);
+	outline: none;
+	border:1px solid black;
+}
+
+select{
+	margin-top: 30px;
+	width: 300px;
+	font-size: 1rem;
+	padding: 10px 0px 10px 0px;
+}
+#sayla{
+	margin-top: 30px;
+	font-size: 2rem;
+	opacity: 0.8;
+}
+#solve{
+	margin-top: 50px;
+	font-size: 2rem;
+	opacity: 0.7;
+	display: none;
+}
+#body2{
+	min-height: 100vh;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    
+}
+#win{
+	text-align: center;
+	position:relative;
+    font-weight: bold;
+    display: none;
+    margin-top:200px; 
+}
+
+#restart{
+	text-align: center;
+	position:relative;
+    font-weight: bold;
+    display: none;
+    margin-top:25px; 
+}

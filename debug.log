@@ -1,0 +1,4 @@
+[0305/171938.124:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0305/171939.033:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0305/171942.066:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0305/171942.471:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
